@@ -1,0 +1,18 @@
+Saber el Status:
+git Status
+
+Inicializar repositorio:
+git init
+
+Agregar archivos:
+git add .
+
+Hacer un nueva version:
+git commit -m "hice un index.html"
+
+
+ver registro de commits (versiones)
+git log
+
+
+
