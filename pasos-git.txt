@@ -7,6 +7,10 @@ git init
 Agregar archivos:
 git add .
 
+Crear una version (commit)
+git commit -m "hice un html"
+
+
 Hacer un nueva version:
 git commit -m "hice un index.html"
 
@@ -14,5 +18,13 @@ git commit -m "hice un index.html"
 ver registro de commits (versiones)
 git log
 
+Elegimos la direccion remota de nuestro repositotio
+git remote add origin https://github.com/ax-gorgor/clase-3.git
+
+renombramos a la rama maestra a main
+git branch -M main
+
+Enviamos los cambios de nuestra version (commit)
+git push -u origin main
 
 
